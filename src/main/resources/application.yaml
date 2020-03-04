@@ -1,7 +1,7 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:ffos_db
-    #url: jdbc:h2:file:./ffos
+    #url: jdbc:h2:mem:ffos_db
+    url: jdbc:h2:file:./ffos
   jpa:
     hibernate:
       ddl-auto: update
