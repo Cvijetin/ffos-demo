@@ -5,3 +5,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+
+  banner:
+    location: custom-banner.txt
