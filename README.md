@@ -1,19 +1,22 @@
-# ffos-demo
+<p>FFOS demo application</p>
 
-How to run:
-  1. Git clone
-  2. Open project with IntelliJ
-  3. Run
-  
-Database:
-  If in memory:
-    - Open http://localhost:8080/h2-console/
-    - JDBC URL: jdbc:h2:mem:ffos_db
-    - Username: sa
-    - Empty password
-  If file:
-    - Open http://localhost:8080/h2-console/
-    - JDBC URL: jdbc:h2:file:./ffos
-    - Username: sa
-    - Empty password
+<h1>How to run:</h1>
+<ol>
+<li>Git clone</li>
+<li>Open project with IntelliJ</li>
+<li>Run</li>
+</ol>
+<h1>Database:</h1>
+<ul>If in memory:
+    <li>Open http://localhost:8080/h2-console/</li>
+    <li>JDBC URL: jdbc:h2:mem:ffos_db</li>
+    <li>Username: sa</li>
+    <li>Empty password</li>
+    </ul>  
+<ul>If file:
+    <li>Open http://localhost:8080/h2-console/</li>
+    <li>JDBC URL: jdbc:h2:file:./ffos</li>
+    <li>Username: sa</li>
+    <li>Empty password</li>
+</ul>  
     
